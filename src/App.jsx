@@ -7,20 +7,26 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
+import { ThemeProvider } from './context/ThemeContext';
+import { LanguageProvider } from './context/LanguageContext';
 
 function App() {
   return (
-    <div className="font-sans antialiased text-gray-900 bg-gray-50 min-h-screen">
-      <Navbar />
-      <main className="flex-grow">
-        <Hero />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <LanguageProvider>
+        <div className="font-sans antialiased text-gray-900 bg-gray-50 dark:bg-gray-900 dark:text-gray-100 min-h-screen transition-colors duration-300">
+          <Navbar />
+          <main className="flex-grow">
+            <Hero />
+            <Skills />
+            <Experience />
+            <Projects />
+            <Contact />
+          </main>
+          <Footer />
+        </div>
+      </LanguageProvider>
+    </ThemeProvider>
   );
 }
 
