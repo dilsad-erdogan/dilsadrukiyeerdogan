@@ -30,6 +30,10 @@ export const translations = {
             sending: "Sending...",
             success: "Message sent successfully!",
             error: "Failed to send message. Please try again."
+        },
+        footer: {
+            rights: "All rights reserved.",
+            developedBy: "Developed by"
         }
     },
     tr: {
@@ -63,6 +67,10 @@ export const translations = {
             sending: "Gönderiliyor...",
             success: "Mesajınız başarıyla gönderildi!",
             error: "Mesaj gönderilemedi. Lütfen tekrar deneyin."
+        },
+        footer: {
+            rights: "Tüm hakları saklıdır.",
+            developedBy: "Geliştiren:"
         }
     }
 };
