@@ -21,21 +21,6 @@ const Experience = () => {
             }
         },
         {
-            company: "MAK Robot",
-            role: {
-                en: "INTERN FULLSTACK DEVELOPER",
-                tr: "STAJYER FULLSTACK GELİŞTİRİCİ"
-            },
-            period: {
-                en: "2022 - 2023 ( 40 days )",
-                tr: "2022 - 2023 ( 40 gün )"
-            },
-            description: {
-                en: "Admin panel design and backend API software using C#, HTML, bootstrap. Website construction using wordpress, php, css, js.",
-                tr: "C#, HTML, bootstrap kullanarak yönetici paneli tasarımı ve arka uç API yazılımı. Wordpress, php, css, js kullanarak web sitesi yapımı."
-            }
-        },
-        {
             company: "Otokar",
             role: {
                 en: "INTERN FULLSTACK DEVELOPER",
@@ -48,6 +33,21 @@ const Experience = () => {
             description: {
                 en: "Coding the information taken into the database by web scraping with Python. Member site that can be logged in using C#, js, HTML, bootstrap.",
                 tr: "Python ile web scraping yapılarak veritabanına alınan bilgilerin kodlanması. C#, js, HTML, bootstrap kullanılarak giriş yapılabilen üye sitesi."
+            }
+        },
+        {
+            company: "Freelance",
+            role: {
+                en: "FULLSTACK DEVELOPER",
+                tr: "FULLSTACK GELİŞTİRİCİ"
+            },
+            period: {
+                en: "2025 - 2025",
+                tr: "2025 - 2025"
+            },
+            description: {
+                en: "In this project, the system is designed to manage monthly student fees. Admin guidance and gyms student fee management processes.",
+                tr: "Bu projede, sistem aylık öğrenci ücretlerini yönetmek üzere tasarlanmıştır. Yönetim rehberliği ve spor salonlarının öğrenci ücreti yönetim süreçleri."
             }
         }
     ];
